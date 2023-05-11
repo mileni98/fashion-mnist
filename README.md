@@ -1,15 +1,19 @@
 # Classification of Garment Images
 
-This project was conducted as a part of my Bachelor's thesis in Data Science. The project aimed to explore the effectiveness of various machine learning algorithms (KNN, CNN, MLP, and SVM) for image classification tasks, using the Fashion-MNIST dataset.
+This project explores the performance of various machine learning algorithms for image classification on the Fashion-MNIST dataset, as part of my Bachelor's thesis in Data Science *(found in bachelor_thesis folder)*. 
 
-The project used cross-validation to determine the optimal parameters for each algorithm and applied Principal Component Analysis (PCA) for dimensionality reduction. Standardization of features was also done to ensure consistency.
+**The notebook files provide detailed explanations and results**, including cross-validation for parameter tuning, PCA for dimensionality reduction, and feature standardization for consistency.
 
-The results of this study demonstrate the potential of machine learning algorithms in real-world applications, particularly in image classification tasks. This project provides a comprehensive overview of the performance of different machine learning algorithms on the Fashion-MNIST dataset.
+The results of this study demonstrate the potential of machine learning algorithms in real-world applications, particularly in image classification tasks. 
 
 ## Dataset
 
 The Fashion-MNIST dataset contains a set of 70,000 grayscale images of size 28x28 pixels, which are divided into 10 different classes. 
 
+
+<p align="center">
+  <img src="https://github.com/mileni98/fashion-mnist/assets/73794793/bf109955-9f5e-412c-bb6f-36319bc2d878" alt="" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+</p>
 
 ## Algorithms Used
 
@@ -34,9 +38,6 @@ The workflow for each algorithm file in this project is as follows:
 - The model is trained using these parameters on 100% of the PCA-reduced dataset and tested on the test dataset.
 
 
-## Conclusion
-
-
 ## Running the project
 
 To use this project, follow these steps:
@@ -53,11 +54,8 @@ To use this project, follow these steps:
 ## Dependencies
 
 This project has the following depencencies:
-
-- pandas
 - numpy
-- matplotlib
+- pandas
 - scikit-learn
 - TensorFlow
 - Keras
-- Additional_metrics
